@@ -10,6 +10,8 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score,precision_score, recall_score
 import time
 
+
+print("Sucess")
 df = pd.read_csv("Training.csv")
 test_df = pd.read_csv("Testing.csv")
 
